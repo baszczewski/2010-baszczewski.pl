@@ -1,0 +1,675 @@
+/* 
+	GENERAL
+*/
+body
+{
+    width:884px;
+    margin: 10px auto 0 auto;
+    background: url(../images/gradient_1.png) #1b2121 repeat-x;
+    text-align:left;
+    font-family:Arial,'DejaVu',sans-serif;
+    color: #000000;
+    font-size: 12px;
+}
+img
+{
+    border:0;
+}
+a
+{
+    text-decoration:none;
+    color:#ffffff;
+}
+
+ol, ul 
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    padding:0 0 0 15px;
+    margin:0;
+}
+/* 
+	FORM
+*/
+input.text, textarea.text
+{
+    background-color:#ffffff;
+    border:1px solid #c2c2c2;
+    border-width:1px;
+    color:#ffffff;
+    margin:0;
+    padding:2px;
+    color:#000000;
+    font-size:12px;
+    float:left;
+}
+/* 
+	SPRITE
+*/
+#logo, #frame_top, #frame, #frame_bottom, #menu .item div, .category, .star1, .star2, .flag1, .flag2, .flag3, .calendar, .rss, .system_windows, .system_macosx, .system_linux, .system_other, .photos a img, #lbCloseLink, .download, .datestamp div, .technology
+{
+    background: url(../images/sprite.png);
+    background-repeat: no-repeat;
+}
+/* 
+	LAYOUT
+*/
+#logo
+{
+    background-position:-1px -111px;
+    width:50px;
+    height:48px;
+    float:left;
+}
+
+#top
+{
+    background-position:-1px -111px;
+    width:824px;
+    height:48px;
+    position:relative;
+    left:30px;
+    top:40px;
+}
+#top .baszczewski
+{
+    float:left;
+    font-size:24px;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    position:relative;
+    top:10px;
+
+}
+#frame_top
+{
+    background-position:-1px -1px;
+    float:left;
+    width:884px;
+    height:54px;
+}
+#frame_bottom
+{
+    background-position:-1px -56px;
+    float:left;
+    width:884px;
+    height:54px;
+}
+#frame
+{
+    float:left;
+    background: url(../images/gradient_2.png) repeat-y;
+    width:884px;
+    padding-left:54px;
+}
+#body
+{
+    float:left;
+    background-color:#ffffff;
+    width:776px;
+}
+#body a
+{
+    text-decoration:none;
+    color:#777;
+}
+#body a:hover
+{
+    text-decoration:underline;
+    color:#000;
+}
+#body div.text
+{
+    margin:10px;
+    color:#111111;
+    font-size:12px;
+}
+#body h1
+{
+    font-size:16px;
+    font-weight:bold;
+    padding:0;
+    margin:0;
+}
+#body h2
+{
+    font-size:14px;
+    font-weight:bold;
+    color:#111111;
+    padding:0;
+    margin:0;
+}
+#background
+{
+    float:left;
+    background-repeat:no-repeat;
+    background-position: bottom left;
+    width:776px;
+}
+#background div.text
+{
+    float:right;
+    width:505px;
+    margin-right:10px;
+    margin-top:10px;
+    color:#111111;
+    font-size:12px;
+    text-align:justify;
+}
+/* 
+	MENU
+*/
+#menu
+{
+    left:5px;
+    top:20px;
+    position:relative;
+    float:right;
+}
+#menu .item
+{
+    color:#ffffff;
+    float:left;
+    margin-right:20px;
+}
+#menu .item div
+{
+    background-position:-1px -160px;
+    width:25px;
+    height:25px;
+    float:left;
+}
+#menu .item img
+{
+    float:left;
+}
+#menu .item a
+{
+    float:left;
+    padding-top:6px;
+    font-weight:bold;
+    color:#ffffff;
+}
+#menu .item a:hover
+{
+    float:left;
+    padding-top:6px;
+    font-weight:bold;
+    color:#999999;
+}
+/* 
+	OTHER
+*/
+.technology
+{
+    background-position:-647px -181px;
+    float:left;
+    width:50px;
+    height:16px;
+    padding:4px 7px 3px 0;
+    color:#ffffff;
+    text-align:center;
+}
+.calendar
+{
+    background-position:-395px -111px;
+    width:251px;
+    height:157px;
+    margin:22px 0 27px 0;
+}
+
+.flag1
+{
+    background-position:-738px -192px;
+    width:12px;
+    height:12px;
+    float:left;
+}
+
+.flag2
+{
+    background-position:-738px -205px;
+    width:12px;
+    height:12px;
+    float:left;
+}
+
+.flag3
+{
+    background-position:-738px -218px;
+    width:12px;
+    height:12px;
+    float:left;
+}
+
+.rss
+{
+    background-position:-738px -179px;
+    width:12px;
+    height:12px;
+    float:left;
+}
+
+.system_windows
+{
+    background-position:-734px -111px;
+    width:16px;
+    height:16px;
+    float:left;
+}
+
+.system_macosx
+{
+    background-position:-734px -162px;
+    width:16px;
+    height:16px;
+    float:left;
+} 
+
+.system_linux
+{
+    background-position:-734px -128px;
+    width:16px;
+    height:16px;
+    float:left;
+}
+
+.system_other
+{
+    background-position:-734px -145px;
+    width:16px;
+    height:16px;
+    float:left;
+}
+.download
+{
+    background-position:-647px -134px;
+    width:22px;
+    height:22px;
+    float:left;
+}
+.files div
+{
+    height:22px;
+    margin-bottom:3px;
+}
+.files a
+{
+    padding-top:3px;
+    margin-left:3px;
+    display:block;
+    float:left;
+}
+.photos 
+{
+    text-align:center;
+}
+.photos a img
+{
+    background-position:-751px -111px;
+    width:120px;
+    height:120px;
+    padding:7px;
+}
+.note
+{
+    margin-bottom:15px;
+}
+.date
+{
+    width:100%;
+    height:60px;
+}
+.category
+{
+    background-position:-687px -246px;
+    text-align:center;
+    width:198px;
+    height:18px;
+    margin-left:24px;
+    margin-bottom:4px;
+    padding-top:4px;
+    font-weight:bold;
+    font-style: italic;
+    float:left;
+}
+.block
+{
+    float:left;
+    width:230px;
+    padding-bottom:15px;
+}
+.line
+{
+    width:100%;
+    float:left;
+}
+.line .link
+{
+    padding:0 0 2px 3px;
+    margin:0;
+    float:right;
+    text-align:left;
+    width:215px;
+    display:block;
+}
+.datestamp 
+{
+    background:#fff none repeat scroll 0 0;
+    border:1px solid #000;
+    display:inline;
+    float:left;
+    margin-right:1em;
+    padding:1px;
+}
+.datestamp span 
+{
+    display:block;
+}
+.datestamp div 
+{
+    background-position:-670px -134px;
+    background-color:#fff;
+    color:#ffffff;
+    padding:1px;
+    text-align:center;
+    width:36px;
+    height:44px;
+    float:left;
+}
+.cal1x 
+{
+    letter-spacing:0;
+    padding-left:0;
+}
+.cal1 
+{
+    font-size:14px;
+}
+.cal2 
+{
+    font-size:16px;
+    font-weight:bold;
+    line-height:13px;
+}
+.cal3 
+{
+    font-size:14px;
+    line-height:14px;
+}
+
+
+/* 
+	COMMENTS
+*/
+#comments
+{
+    background:#f3f3f3;
+    padding:4px;
+    width:100%;
+    float:left;
+}
+#comments .comment-text1
+{
+    float:left;
+    width:100%;
+}
+#comments .comment-text
+{
+    padding:7px 10px 10px 10px;
+}
+#comments .comment
+{
+    width:100%;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#comments .login
+{
+    float:left;
+    padding:2px 0 0 4px;
+}
+#comments .more
+{
+    float:right;
+    padding:2px 20px 0 4px;
+}
+#comments .inactive
+{
+    margin-top:4px;
+    background-color:#fbd1d2;
+    padding:2px;
+}
+
+#comments h4
+{
+    font-size:12px;
+    font-weight:bold;
+    color:#000;
+    margin:0 0 14px 0;
+}
+/* 
+	RATING
+*/
+.rating
+{
+    height:19px;
+    width:95px;
+}
+.rating div.loading
+{
+    width:95px;
+    text-align:center;
+    color:#81A896;
+    display:none;
+}
+.rating div.loading img
+{
+    padding-top:4px;
+    width:16px;
+    height:16px;
+}
+.rating div
+{
+    height:19px;
+}
+.rating img
+{
+    width:19px;
+    height:19px;
+    cursor:pointer;
+}
+.star1
+{
+    background-position:-667px -246px;
+    width:19px;
+    height:19px;
+    float:left;
+    cursor:pointer;
+}
+.star2
+{
+    background-position:-647px -246px;
+    width:19px;
+    height:19px;
+    float:left;
+    cursor:pointer;
+}
+
+/* 
+	FOOTER
+*/
+#footer
+{
+    color:#333333;
+    position:relative;
+    left:42px;
+    top:-35px;
+    padding-right:85px;
+}
+#footer .left
+{
+    float:left;
+}
+#footer .right
+{
+    float:right;
+}
+#footer a
+{
+    color:#333333;
+}
+#footer a:hover
+{
+    text-decoration:underline;
+    color:#555555;
+}
+
+/* 
+	TABLE
+*/
+table.table
+{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:5px;
+    border:1px solid #999;
+}
+table.table td
+{
+    padding:1px 3px 1px 3px;
+}
+table.table .highlight
+{
+    background-color:#999
+}
+table.table .header
+{
+    background-color:#333;
+    color:#ffffff;
+    font-weight:bold;
+}
+/* 
+	SLIMBOX
+*/
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.lbLoading {
+	background: #fff url(../images/loading.gif) no-repeat center;
+}
+
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(../images/prevlabel.gif) no-repeat 0 15%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover
+{
+	background: transparent url(../images/nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none;
+}
+
+#lbCloseLink 
+{
+    background-position:-647px -111px;
+    display: block;
+    float: right;
+    width: 66px;
+    height: 22px;
+    margin: 5px 0;
+    outline: none;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}
+/* 
+	CLOUD
+*/
+
+  #tags .size9 {
+  	font-size: 20px;
+  }
+  #tags .size8 {
+  	font-size: 19px;
+  }
+  #tags .size7 {
+  	font-size: 18px;
+  }
+  #tags .size6 {
+  	font-size: 17px;
+  }
+  #tags .size5 {
+  	font-size: 16px;
+  }
+  #tags .size4 {
+  	font-size: 14px;
+  }
+  #tags .size3 {
+  	font-size: 12px;
+  }
+  #tags .size2 {
+  	font-size: 10px;
+  }
+  #tags .size1 {
+  	font-size: 10px;
+  }
+  #tags .size0 {
+  	font-size: 10px;
+  }
